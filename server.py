@@ -1,5 +1,4 @@
-import os  # Import the os module for interacting with the operating system (not used in this script, but often useful)
-from flask import Flask, render_template, request  # Import Flask and functions to render HTML templates and handle requests
+from flask import Flask, render_template  # Import Flask and functions to render HTML templates and handle requests
 from waitress import serve  # Import the 'serve' function from waitress to run the app in production
 from random import randint  # Import randint to generate random integers
 
